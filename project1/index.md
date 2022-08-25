@@ -4,7 +4,7 @@ Welcome to SquareWorld! In this project you will brush up on your Java skills to
 
 ## Getting Started
 
-1. Download the starter code [here](https://rhodes.box.com/s/hkagopfc6owxj4trd5pniv8ikjrmpykd).  This zip file will unzip into a `src` folder. 
+1. Download the starter code [here](code.zip).  This zip file will unzip into a `src` folder. 
 2. Make a new Intellij project.  Then copy the contents of this `src` folder exactly into the `src` folder in the new project.
 3. There is a lot of code here, but most of it you can ignore.  To verify everything is working correctly, find the `BugDemo.java` file and run it.  You should see a window open.
 4. Press the STEP button to watch the world unfold.  You can press the RUN button to watch it continuously.  You can drag the slider to slow it down or speed it up.
