@@ -2,6 +2,8 @@
 
 Welcome to SquareWorld! In this project you will brush up on your Java skills to explore a world filled with animals.
 
+You may use any editor you'd like. I recommend IntelliJ IDEA.
+
 ## Getting Started
 
 1. Download the starter code [here](code.zip).  This zip file will unzip into a `src` folder. 
@@ -74,7 +76,7 @@ All the code you'll need here is in `MazeWorld.java` and `Mouse.java`.  `Mouse.j
 
 ## Suggestions and hints:
 
-- Once the mouse is directly north/south/east or west of the flower, it should remove itself from the board (use `removeSelfFromBoard()`) and **print out the number of steps it took to find the flower**.  (Hint: Use a instance variable/field in the `Mouse` class to keep track of the number of steps.)
+- Once the mouse is directly north/south/east or west of the flower, it should remove itself from the board (use `removeSelfFromBoard()`) and **print out the number of steps it took to find the flower**.  Moving forward counts as a step, and turning right or left also counts as a step.  (Hint: Use a instance variable/field in the `Mouse` class to keep track of the number of steps.)
 
 - `Mouse` may extend `Actor`, as it does when you start, or if you want it to extend `Bug`, you can do that too.  However, this may cause some problems because `Bug`s drop `Flowers` when they move forward.  You may just want to copy and paste some of the `Bug` methods into `Mouse`, such as the turning and moving methods and modify them as appropriate.
 
@@ -97,10 +99,7 @@ if the mouse is facing a wall:
     else:
         turn left
 else:
-    if the square to the right of the mouse is open 
-      AND the last move was a right turn:
-        move forward
-    else if the square to the right is open 
+    if the square to the right is open 
       AND the last move was NOT a right turn:
         turn right
     else: 
@@ -141,8 +140,9 @@ Notice how in each of these videos, the mouse's tail always stays connected to t
 
 ## How to turn in your code
 
-Upload the following files to Canvas:
+Go to Project 1 on Canvas, and upload the following files to Canvas:
 
 - `SquareBug.java`
 - `MazeWorld.java`
 - `Mouse.java`
+
