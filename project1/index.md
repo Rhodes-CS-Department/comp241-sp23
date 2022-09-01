@@ -106,6 +106,8 @@ else:
         move forward
 ```
 
+Note: When we talk about the "square to the right of the mouse," this depends on which way the mouse is facing. For example, if the mouse is facing west, then the square to the right of the mouse is the square immediately north of the mouse.
+
 You can deduce these properties inside of the `act()` function in a few ways:
 
 - To get your current location, call `getLocation()`.
@@ -121,6 +123,8 @@ You can deduce these properties inside of the `act()` function in a few ways:
   ```
 
 - You can do math with `Directions` to calculate what it means to turn right or left if the mouse is facing various directions.
+
+- You can determine if an object is a Rock, for example, using the `instanceof` operator in Java. For example, if `actor` is a variable representing an Actor, then `actor instanceof Rock` evaluates to either true or false, depending on whether `actor` is a Rock (or an object of a subclass of Rock).
 
 ### Videos of the final product
 
