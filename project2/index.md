@@ -4,7 +4,7 @@ In this project, you will design a more sophisticated version of the `RArrayList
 
 ## Getting Started
 
-Download the starter code from the assignment page on Canvas.  Thes zip file will unzip into a `src` folder.  You should copy the contents of this `src` folder exactly into the `src` folder in a new IntelliJ project.
+Download the starter code [here](code.zip).  Thes zip file will unzip into a `src` folder.  You should copy the contents of this `src` folder exactly into the `src` folder in a new IntelliJ project.
 
 **Read all of this project description before beginning!**
 
