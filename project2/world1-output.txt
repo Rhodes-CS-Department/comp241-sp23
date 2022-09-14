@@ -1,0 +1,45 @@
+What file do you want to read? world1.txt
+Starting configuration:
+Squirrel: [ ]
+Tree 0:   [ ]
+Tree 1:   [ 2 4 6 8 10 12 ]
+[Steps=4] Next to tree 1.
+Gathering acorns.
+Squirrel: [ 2 4 6 ]
+Tree 0:   [ ]
+Tree 1:   [ 8 10 12 ]
+[Steps=10] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 6 4 2 ]
+Tree 1:   [ 8 10 12 ]
+[Steps=16] Next to tree 1.
+Gathering acorns.
+Squirrel: [ 8 10 ]
+Tree 0:   [ 6 4 2 ]
+Tree 1:   [ 12 ]
+[Steps=22] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 8 6 4 2 10 ]
+Tree 1:   [ 12 ]
+[Steps=28] Next to tree 1.
+Gathering acorns.
+Squirrel: [ 12 ]
+Tree 0:   [ 8 6 4 2 10 ]
+Tree 1:   [ ]
+[Steps=34] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 8 6 4 2 10 12 ]
+Tree 1:   [ ]
+[Steps=40] Next to tree 1.
+Gathering acorns.
+Squirrel: [ ]
+Tree 0:   [ 8 6 4 2 10 12 ]
+Tree 1:   [ ]
+[Steps=46] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 8 6 4 2 10 12 ]
+Tree 1:   [ ]

@@ -1,0 +1,78 @@
+What file do you want to read? world2.txt
+Starting configuration:
+Squirrel: [ ]
+Tree 0:   [ ]
+Tree 1:   [ 2 4 6 8 10 12 ]
+Tree 2:   [ 7 12 4 10 9 6 15 ]
+[Steps=4] Next to tree 1.
+Gathering acorns.
+Squirrel: [ 2 4 6 ]
+Tree 0:   [ ]
+Tree 1:   [ 8 10 12 ]
+Tree 2:   [ 7 12 4 10 9 6 15 ]
+[Steps=10] Next to tree 2.
+Gathering acorns.
+Squirrel: [ 2 4 6 7 12 4 10 ]
+Tree 0:   [ ]
+Tree 1:   [ 8 10 12 ]
+Tree 2:   [ 9 6 15 ]
+[Steps=15] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 4 7 6 4 2 12 10 ]
+Tree 1:   [ 8 10 12 ]
+Tree 2:   [ 9 6 15 ]
+[Steps=21] Next to tree 1.
+Gathering acorns.
+Squirrel: [ 8 10 ]
+Tree 0:   [ 4 7 6 4 2 12 10 ]
+Tree 1:   [ 12 ]
+Tree 2:   [ 9 6 15 ]
+[Steps=27] Next to tree 2.
+Gathering acorns.
+Squirrel: [ 8 10 9 6 ]
+Tree 0:   [ 4 7 6 4 2 12 10 ]
+Tree 1:   [ 12 ]
+Tree 2:   [ 15 ]
+[Steps=32] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 ]
+Tree 1:   [ 12 ]
+Tree 2:   [ 15 ]
+[Steps=38] Next to tree 1.
+Gathering acorns.
+Squirrel: [ 12 ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 ]
+Tree 1:   [ ]
+Tree 2:   [ 15 ]
+[Steps=44] Next to tree 2.
+Gathering acorns.
+Squirrel: [ 12 15 ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 ]
+Tree 1:   [ ]
+Tree 2:   [ ]
+[Steps=49] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 12 15 ]
+Tree 1:   [ ]
+Tree 2:   [ ]
+[Steps=55] Next to tree 1.
+Gathering acorns.
+Squirrel: [ ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 12 15 ]
+Tree 1:   [ ]
+Tree 2:   [ ]
+[Steps=61] Next to tree 2.
+Gathering acorns.
+Squirrel: [ ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 12 15 ]
+Tree 1:   [ ]
+Tree 2:   [ ]
+[Steps=66] Next to tree 0.
+Stashing acorns.
+Squirrel: [ ]
+Tree 0:   [ 6 9 8 4 7 6 4 2 12 10 10 12 15 ]
+Tree 1:   [ ]
+Tree 2:   [ ]
