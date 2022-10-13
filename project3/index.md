@@ -178,5 +178,5 @@ Your project will be graded on
 
 ## Submitting your code
 
-To submit, upload these three files: SortedList.java, SortedListTester.java, and your AI player class.
+To submit, upload these four files: SortedList.java, SortedListTester.java, NoThanksGame.java, and your AI player class.
 
