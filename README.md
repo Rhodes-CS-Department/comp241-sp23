@@ -4,3 +4,5 @@
 
 [Project 3: SortedList and NoThanks](project3/)
 
+[Project 4: Sentiment Analysis](project4/)
+
