@@ -6,3 +6,5 @@
 
 [Project 4: Sentiment Analysis](project4/)
 
+[Project 5: Autocomplete](project5/)
+
