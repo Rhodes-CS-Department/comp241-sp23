@@ -8,3 +8,5 @@
 
 [Project 5: Autocomplete](project5/)
 
+[Project 6: Dijkstra's Algorithm](project6/)
+
