@@ -1,6 +1,6 @@
 # Project 1: SquareWorld
 
-Welcome to SquareWorld! In this project you will brush up on your Java skills to explore a world filled with animals.
+Welcome to SquareWorld! In this project you will brush up on your Java skills to explore a world filled with animals. You will also implement an algorithm called the "wall follower algorithm" to solve a maze. If you want to quickly get a sense of what you'll be doing in this project, scroll to the bottom of this page and watch the videos of the final product.
 
 ## General Guidelines
 
