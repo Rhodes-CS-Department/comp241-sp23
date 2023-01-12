@@ -4,7 +4,9 @@ Welcome to SquareWorld! In this project you will brush up on your Java skills to
 
 ## General Guidelines
 
-For most projects in this course, you will be given starter code, and you will be asked to modify certain files. Here are a few important guidelines:
+For most projects in this course, you will be given starter code, and you will be asked to modify certain files.
+
+Here are a few important guidelines:
 
 - You should only edit the files that you will end up submitting at the end of the project. (So for this project, you should only edit `SquareBug.java`, `MazeWorld.java`, and `Mouse.java`.)
 - You should not use any libraries other than the Java standard library. (For example, if you learned to use the StdOut library in COMP142, you should not use this library in this course. For example, instead of writing `StdOut.println()`, you should use `System.out.println()`.)
@@ -18,7 +20,7 @@ These instructions are specific to IntelliJ, but you may adapt them to any other
 1. Download the starter code [here](code.zip).
 2. Unzip the downloaded `code.zip` file, which should give you a `src` folder.
 3. Make a new IntelliJ project using `File > New > Project...`. In the "New Project" pop-up window, select "New Project" (not "Empty Project"), and make sure that the language is Java and the build system is IntelliJ. Pay attention to the project location you choose.
-4. Outside of IntelliJ, navigate to the location where your project was created. Replace the `src` folder there with the `src` folder you unzipped.
+4. Outside of IntelliJ, navigate to the folder where your project was created. Replace the `src` folder there with the `src` folder you unzipped.
 5. Return to IntelliJ, and you should see the `src` folder you unzipped. To verify everything is working correctly, open the `BugDemo.java` file and run it by pressing the green arrow next to the `main` function.
 6. You should see a window open. Press the STEP button to watch the world unfold. You can press the RUN button to watch it continuously. You can drag the slider to slow it down or speed it up.
 
