@@ -1,4 +1,4 @@
-# Project 3: SortedList and No Thanks
+# Project 2: SortedList and No Thanks
 
 In this project, you will implement a doubly-linked list that maintains a list of integers in sorted order. In other words, the user has no control over where in the list items are inserted; they will automatically be placed into the correct position to keep the list in sorted order at all times. We will call this data structure a `SortedList`. You will then use this data structure to develop an artificial intelligence program to play the card game [No Thanks](https://en.wikipedia.org/wiki/No_Thanks!_(game)).
 
