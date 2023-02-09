@@ -57,7 +57,7 @@ ArrayList<Integer> lst = new ArrayList<Integer>();
 
 We want our `SortedList` class to be generic, with one restriction. Since the objects must be kept in sorted order, there must be some way to compare them. This is straightforward for simple things like integers and doubles, but what if we made a `SortedList<Dog>`?  How do we determine if one `Dog` should come before or after another `Dog` in sorted order?  Java has a built-in mechanism for this.
 
-Java contains an interface called `Comparable`.  ([Javadoc)](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Comparable.html) This interface may be implemented by any class that has a need to be sorted or stored in a data structure that does sorting, such as our `SortedList`.  Many existing Java classes implement Comparable, such as all the numeric classes (Integer, Double, etc), String, and many built-in classes.
+Java contains an interface called `Comparable`.  ([Javadoc](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Comparable.html)) This interface may be implemented by any class that has a need to be sorted or stored in a data structure that does sorting, such as our `SortedList`.  Many existing Java classes implement Comparable, such as all the numeric classes (Integer, Double, etc), String, and many built-in classes.
 
 `Comparable` only has one method that must be implemented: `int compareTo(other)`. This method's job is to compare "this" object against another object (`other`) to see which one is bigger or smaller.  If this object is smaller, this function should return a negative integer (often `-1`).  If this object is bigger, it should return a positive integer (often `+1`).  If the two objects are equal, it should return `0`.
 
@@ -114,12 +114,6 @@ The `SortedList` structure itself maintains two pointers, one to the head of the
 - Clear the SortedList. This operation removes all the items from the SortedList. 
 - Retrieve the size of the SortedList.
 - Two methods for displaying a SortedList as a string (one internal, one external).
-
-## Getting Started
-
-- Download the starter code from Canvas.  For the moment, only pay attention to SortedList.java (inside the SortedList package).  Take a look at the entire file.  Ignore the `extends Comparable<E>` part for now.  That will be made clear later.
-- Take a look at SortedListTester.java.  This file is similar to the previous project, where you will write tests.  This file should compile and run out of the box, though the output won't be very meaningful.
-- Ignore everything else right now (everything inside the `nothanks` package).
 
 ## Part A: Implementing SortedList [80 points of your grade]
 
@@ -196,7 +190,7 @@ In part B, you will be:
   - The score for [10 11 12] would be just 10.
   - The score for [8 10 11 12 14] would be 8 + 10 + 14 = 32.
 - To iterate through a SortedList, the most efficient way is to use a for-each loop. For example, `for (int card : cards) { ...`. This is more efficient than using `size()` and `get()`, since `get()` takes O(n) time.
-- You should test your function by running the `CardScoreTester` tester class below the function.  Write additional tests in main to make sure your function works!
+- You should test your function by running the `main()` method in the `CardScore` class. You are encouraged to write additional tests in `main()` to make sure your function works!
 - Note that in the real game, once the "card score" is calculated, the number of counters/chips each player has is subtracted.  This is not part of the `getCardScore()` function, however.
 
 ### Implementing the AI player [10 points]
@@ -217,7 +211,7 @@ In part B, you will be:
 Your project will be graded on 
 
 - correctness of your output
-- appropriateness of your algorithmic choices, including big-oh times: Your implementations should be as fast as is reasonably possible (in other words, do not use an O(n^2) algorithm where an O(n) will do.
+- appropriateness of your algorithmic choices, including big-oh times: Your implementations should be as fast as is reasonably possible (in other words, do not use an O(n^2) algorithm where an O(n) will do.)
 - thoroughness of your testing code
 - intelligence of your AI player
 - code style, including appropriate choices regarding comments, naming of variables, design and readability of your code, etc.
