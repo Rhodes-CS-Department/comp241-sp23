@@ -1,0 +1,24 @@
+Enter filename: reviews-big.txt
+Number of words is: 16749
+Height of the tree is: 32
+After removing stopwords:
+Number of words is: 16349
+Height of the tree is: 32
+
+Enter a new review to analyze: best movie ive ever seen
+Skipping best (stopword)
+The average sentiment of movie is 1.833695652173913
+The average sentiment of ive is 2.1739130434782608
+Skipping ever (stopword)
+The average sentiment of seen is 2.3375
+Sentiment score for this review is 2.115036231884058
+
+Enter a new review to analyze: i hate this terrible movie
+Skipping i (stopword)
+The average sentiment of hate is 1.5625
+Skipping this (stopword)
+The average sentiment of terrible is 1.1176470588235294
+The average sentiment of movie is 1.833695652173913
+Sentiment score for this review is 1.5046142369991475
+
+Enter a new review to analyze: quit
