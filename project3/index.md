@@ -14,6 +14,26 @@ After you read in all the movie reviews and create the two maps from the words (
 
 You will create a Set of stop words from `stopwords.txt`, and you will them remove the stop words from your binary search trees of word frequencies and word scores.  Then, after printing a bunch of statistics again, you will have the user type in new movie reviews, until they type the word “quit”. For each review, you will calculate a number between 0-4 indicating the sentiment of the review, where 2 is neutral (0-1 are negative; 3-4 are positive).
 
+## General Guidelines
+
+Here are a few important guidelines:
+
+- You should only edit the files that you will end up submitting at the end of the project.
+- You should not use any libraries other than the Java standard library.
+- If you are asked to write code that prints output, you should **aim to match the sample output exactly, character for character.**
+
+You may use any code editor you like.
+
+## Getting Started
+
+These instructions are specific to IntelliJ, but you may adapt them to any other code editor if you like.
+
+1. Download the starter code [here](code.zip).
+2. Unzip the downloaded `code.zip` file, which should give you a `src` folder.
+3. Make a new IntelliJ project using `File > New > Project...`. In the "New Project" pop-up window, select "New Project" (not "Empty Project"), and make sure that the language is Java and the build system is IntelliJ. Pay attention to the project location you choose.
+4. Outside of IntelliJ, navigate to the folder where your project was created. Replace the `src` folder there with the `src` folder you unzipped.
+5. Return to IntelliJ, and you should see the `src` folder you unzipped.
+
 ## Important classes for this project
 
 This project is all about using the Map and Set abstract data types.  In particular, you will be implementing your own Map type using a binary search tree, but you will use a built-in Java type for the Set.
