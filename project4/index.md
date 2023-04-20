@@ -8,7 +8,7 @@ In this project, we will put all of our pieces from this semester together.  Wel
 
 ### Primer on the Java Collection Framework
 
-For this project, you will be using a number of classes in the Java Collections Framework, which contains all of the basic data structures programmers commonly use in their programs, including a variety of Lists, Sets, and Maps.  You have already used ArrayLists, LinkedLists, and HashSets in previous projects; for this project, you will make use of the built-in Java Maps, known as HashMap (implemented with hash tables) and TreeMap (implemented with a variety of a BST).  If you are not already familiar with these, [you can read this description of how they work](java-collections.html).
+For this project, you will be using a number of classes in the Java Collections Framework, which contains all of the basic data structures programmers commonly use in their programs, including a variety of Lists, Sets, and Maps. For this project, you will make use of the built-in Java Maps, known as HashMap (implemented with hash tables) and TreeMap (implemented with a variety of a BST).  If you are not already familiar with these, [you can read this description of how they work](java-collections.html).
 
 ### Project description
 
