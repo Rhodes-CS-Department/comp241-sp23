@@ -4,3 +4,5 @@
 
 [Project 3: Sentiment Analysis](project3/)
 
+[Project 4: Dijkstra's Algorithm](project4/)
+
